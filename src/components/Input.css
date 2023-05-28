@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="text"]:focus~.input-text,
+input[type="text"]:not(:placeholder-shown)~.input-text {
+    @apply text-blue-500 transform -translate-y-10 -translate-x-2 scale-75;
+}
+
+.App {
+    
+    font-family: 'Press Start 2P', cursive;
+    font-size: 12px;
+}
